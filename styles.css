@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
+/* ID's */
+
+#general-information {
+
+}
+
+#structure {
+
+}
+
+#team {
+
+}
+
+#schedule {
+
+}
+
+
+/* Tag Selector's */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,10 +41,11 @@ h1 {
   font-size: 9em;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
   font-size: 5em;
   text-align: center;
   text-transform: uppercase;
@@ -44,19 +66,32 @@ h5 {
   font-size: 1.2em;
 }
 
-#general-information {
+/* Classes */
+
+/* Nav-Bar Styling */
+
+.nav-bar {
+  background-color: darkblue;
+  font-color: white;
 
 }
 
-#structure {
-
+.nav-bar-item {
+  color: white;
+  font-size: 2em;
+  text-decoration-color: white
 }
 
-#team {
+/* Header styling */
 
+.header {
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
 }
 
-#schedule {
-
+.quote {
+  font-size: 2.5em;
 }
-
