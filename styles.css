@@ -55,21 +55,41 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  letter-spacing: 0.4px
+  letter-spacing: 0.4px;
+  margin: 0 0 15px 0;
+
 }
 
 h5 {
   font-size: 1.2em;
+  margin: 40px 0 0 0;
 }
+
+
+nav ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+list-style-type: none;
+text-align: center;
+}
+
 
 
 /* Classes */
 
-/* Nav-Bar Styling */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0px;
+}
 
 .nav-bar {
   background-color: rgb(25, 33, 41);
   font-color: white;
+  padding: 14px 0px;
 
 }
 
@@ -79,6 +99,7 @@ h5 {
   text-decoration-color: white
 }
 
+
 /* Header styling */
 
 .header {
@@ -87,6 +108,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  padding: 50px 0px 0px;
 }
 
 .quote {
@@ -102,6 +124,7 @@ h5 {
   font-size: 2em;
   font-weight: 100;
   text-align: center;
+  margin: 20px 0px;
 
 }
 
@@ -118,7 +141,13 @@ h5 {
 .service-box {
   font-size: 1.7em;
   text-align: center;
-
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
 }
 
 .service-box img {
@@ -128,6 +157,8 @@ h5 {
 #team .section-text {
   font-size: 1.9em;
   text-align: center;
+  width: 60%;
+  margin: 10px auto;
 }
 
 #team .member-name {
@@ -138,14 +169,27 @@ h5 {
 .footer {
 font-size: 1.9em;
 text-align: center;
+padding: 5px 100px 0 100px;
+
+
 }
 
 .adress {
   font-style: normal;
   font-size: 0.7em;
+  margin: 30px 0 30px 0;
 }
 
 footer a {
   color: rgb(67, 163, 230);
   text-decoration: none;
 } 
+
+footer li {
+  list-style-type: none;
+}
+
+#team hr {
+  margin: 20px auto 30px auto;
+  width: 40%;
+}
